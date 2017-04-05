@@ -1,10 +1,13 @@
 body {
   background-color: #A39A94;
-  margin: 2%;
+  margin: 2% 6%;
   font-family: "Open Sans" , "Roboto","Helvetica Neue",Arial,sans-serif;
   color: #fff;
 }
 
+.no-justified {
+  text-align: left;
+}
 
 #logo {
   max-width: 30%;
@@ -76,14 +79,13 @@ section {
     color: #fff;
     /*color: #146FA7*/
   }
-
-  #menu li a:hover{
-    text-decoration: underline;
+  #menu li a:hover {
     color: #000;
-  }
+    background: rgba(20,111,167,.6);
+    text-decoration: underline;
 
 }
-
+}
 
 
 @media (min-width: 800px) {
@@ -120,8 +122,10 @@ section {
   }
 
   #menu li a:hover {
+    color: #fff;
     background: rgba(20,111,167,.6);
     text-decoration: underline;
+
 
   }
 
