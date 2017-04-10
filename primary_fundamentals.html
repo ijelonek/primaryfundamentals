@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Primary Fundamentals</title>
+    <meta content="width=device-width" name="viewport">
+    <meta name="description" content="Primary Fundamentals is...." />
+    <meta charset="UTF-8">
+    <link href="css/main.css" rel="stylesheet"> </link>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  </head>
+  <body>
+    <article>
+      <section>
+
+        <button id="hamburger">&#9776;</button>
+        <button id="cross" class="hidden">&#735;</button>
+        <img id="logo" src="images/fund_logo.png"> </img>
+
+        <div id="menu" class="hidden">
+          <ul>
+            <li><a href = "https://primaryfundamentals.co.uk" id="log-in"> Log in </a> </li>
+            <li><a href=#membership> Membership </a></li>
+            <li><a href=#prove-its> Prove Its </a></li>
+
+            <li><a href=#contact-us>Contact us</a></li>
+
+        </div>
+
+      </section>
+      <section id="about">
+        <h2> About Primary Fundamentals </h2>
+        <div class="content-container">
+          <p> Primary Fundamentals consists of:
+            <ul>
+              <li> Fundamentals model </li>
+              <li> Fundamentals tracker </li>
+              <li> Prove Its </li>
+            </ul>
+            Each of these can be used on its own or as a package.
+
+           </p>
+        </div>
+      </section>
+      <section>
+        <h2> Primary Fundamentals model </h2>
+        <div class="content-container">
+          <p> The Fundamentals have been developed to embody the core principles set out by the DfE and provide a model that can equip schools to successfully assess children beyond levels and record progress from the Reception baseline to Year 6. The fundamentals are based upon the National Curriculum statutory outcomes for Year 2, 4, 6 and advised outcomes for 1, 3, 5. Therefore in each year and core subject there is a clear assessment criteria.</p>
+          <p> In each subject and in each year there are a set of clear objectives that a child must learn to be ready to access the next year of study. Further, the objectives have been deliberately presented within circles to highlight the cycles of learning and move away from a purely linear view of learning and progression. Our mastery model is based upon consolidation, revisiting and expansion of skills and knowledge.</p>
+          <p>With the exception of children with complex SEND needs, it is our ambition and belief that all children should achieve all of the objectives within each year and subject: therefore securing the fundamentals.</p>
+        </div>
+      </section>
+
+
+
+      <section id="membership">
+        <h2> Primary Fundamentals Tracker </h2>
+        <div class="content-container">
+          <p>Primary Advantage have commissioned the building of an online tracker that includes the features offered by commercial providers. It is designed directly in line with our Fundamentals approach to assessment and as a result is built on strong pedagogical foundations.&nbsp; We are inviting schools to take part in a pilot programme for one year which gives schools the tracker at no cost, with subsidised costs for CPD and online support. After one year, schools can choose to subscribe to the annual primary fundamentals membership.</p>
+
+          <ul>
+          	<li>Track attainment and progress of pupils within year groups and across key stages</li>
+          	<li>Set targets for all pupils</li>
+          	<li>Assess against end of year objectives</li>
+          	<li>Track against end of year expectations using a secure fit approach</li>
+          	<li>Analyse the % of children who are on track, not on track and on track for greater depth</li>
+          	<li>Conduct a detailed gap analysis for each core subject area</li>
+          	<li>Close the gap through the tracking of PPG, SEND, Gender and groups specific to your school context</li>
+          	<li>Generate data walls and key attainment graphs automatically using data analysis and reporting tools</li>
+          	<li>Access multi–school tracker feature to compare data across groups of schools across Partnerships, Federations or Trusts</li>
+          </ul>
+
+          <p><b>Data Wall 1</b></p>
+          <p><b>Pupil Overview</b></p>
+          <p><b>On Track graph</b></p>
+          <p><b>Heat map</b></p>
+          <p><b>Score Distribution graph</b></p>
+
+		</div>
+      </section>
+      <section id="prove-its">
+        <h2> Prove Its </h2>
+        <div class="content-container">
+          <p> <b><i>Just because we&nbsp;taught it doesn't mean they learned it’ </b></i></p>
+          <p>As a result we have produced a comprehensive bank of mini assessment questions and quizzes to enable pupils to ‘prove’ their learning through the application of knowledge and skills. Pupils engage with a range of ‘prove its’ to allow teachers to assess whether or not the learning has ‘stuck’.</p>
+          ‘Prove its’:
+          <ul>
+            <li>‘Check its’ are used to make a quick assessment a few weeks after teaching a strand</li>
+            <li>‘Think its’ include a range of problem solving and reasoning questions</li>
+            <li>‘Test its’ are mini assessments used to assess learning at the end of a unit</li>
+            <li>There are over 1000 ‘prove its’ covering every maths strand from year 1– year 6</li>
+          </ul>
+
+          <p class='no-justified'><b>Cost: </b>£500 (£250 to PA Maths member schools and schools using The Fundamentals Tracker)</br>
+          Please email <a href="mailto:development@primaryadvantage.hackney.sch.uk"> development@primaryadvantage.hackney.sch.uk</a> to request access to Prove Its.</p>
+          <div><p><b>Check Its:</b></p>
+            <img alt="" src="img/check-it.png"></div>
+          <div><p><b>Think Its:</b></p>
+            <img alt="" src="img/think-it.png"></div>
+          <div><p><b>Test Its:</b></p>
+            <img alt="" src="img/test-it.png"></div>
+          </p>
+        </div>
+
+      </section>
+
+      <section id="contact-us">
+        <h2>Contact us </h2>
+        <div class="content-container">
+          <p> Email us on development@primaryadvantage.hackney.sch.uk</p>
+        </div>
+      </section>
+
+    </article>
+  </body>
+<script>
+  var hamburger = document.getElementById('hamburger'),
+      cross = document.getElementById('cross'),
+      menu = document.getElementById('menu');
+
+      hamburger.addEventListener('click', function(event){
+        hamburger.classList.toggle('hidden');
+        menu.classList.toggle('hidden');
+        cross.classList.toggle('hidden');
+      })
+
+      cross.addEventListener('click', function(event){
+        hamburger.classList.toggle('hidden');
+        menu.classList.toggle('hidden');
+        cross.classList.toggle('hidden');
+      })
+
+
+</script>
+</html>
